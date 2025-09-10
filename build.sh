@@ -12,7 +12,7 @@ git reset --hard d6d1dfa76c6eb6e27c0cd873e902c4387571bd3a
 apt install devscripts -y
 mk-build-deps --install
 git submodule update --init --recursive
-cp ../Logo1.bmp debian/
+cp ../Logo.bmp debian/
 cp ../sedPatch-pve-edk2-firmware-anti-dection.sh edk2/
 cd edk2
 meson subprojects download
