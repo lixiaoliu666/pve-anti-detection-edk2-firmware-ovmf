@@ -6,7 +6,7 @@ df -h
 git clone git://git.proxmox.com/git/pve-edk2-firmware.git
 cd pve-edk2-firmware
 # pve8 Version2025.02-4-bpo12+1
-git reset --hard d6d1dfa76c6eb6e27c0cd873e902c4387571bd3a
+#git reset --hard d6d1dfa76c6eb6e27c0cd873e902c4387571bd3a
 # pve9 Version2025.02-4
 #git reset --hard 221a2615288791f6673ae4d58d2669230071f4af
 apt install devscripts -y
