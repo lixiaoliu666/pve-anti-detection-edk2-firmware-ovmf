@@ -1,6 +1,5 @@
 #!/bin/bash
 #适用于给pve-edk2-firmware里面的edk2打补丁使用，输出ovmf包。直接放本脚本在edk2目录下，在make包之前在edk2目录运行一次本脚本就是，运行后你可以继续使用git工具生成edk2具体版本的patch文件
-#作者 李晓流  20240824出品
 brand="Dell" #这里修改品牌，仅4个大写英文字母
 echo "开始sed工作"
 sed -i 's/0x20202020324B4445/0x20202020204c5450/g' MdeModulePkg/MdeModulePkg.dec
