@@ -1,4 +1,4 @@
-name: Build anti-detection pve-edk2-firmware-ovmf deb
+name: Build emu-realpc pve-edk2-firmware-ovmf deb
 
 on:
   push:
