@@ -67,7 +67,7 @@ jobs:
         uses: actions/create-release@v1
         with:
           tag_name: ${{ format('v{0}', steps.current-time.outputs.formattedTime) }}
-          release_name: ${{ format('pve9 anti-detection pve-edk2-firmware-ovmf build-{0}', steps.current-time.outputs.formattedTime) }}
+          release_name: ${{ format('pve9 emu-realpc pve-edk2-firmware-ovmf build-{0}', steps.current-time.outputs.formattedTime) }}
           body: |
             build emu-realpc pve-edk2-firmware-ovmf deb
           draft: false
